@@ -5,11 +5,17 @@ body {
 :root {
     --text-section-color: #434455;
     --button-color: #4D5AE5;
+    --logo-color: #2E2F42;
 }
 
 .link {
     text-decoration: none;
 }
+
+.list {
+    list-style: none;
+}
+
 
 ul {
     list-style-type: none;
@@ -29,18 +35,18 @@ ul {
 }
 
 .header-name {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--button-color)
 }
 
 .header-name span {
-    color: #4D5AE5;
+    color: var(--logo-color);
 }
 
 /*.header-page {}*/
@@ -48,16 +54,20 @@ ul {
 .header-menu {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.50;
-    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-color);
+
 }
 
 .header-menu:hover,
 .header-menu:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
-/*.header-adress {}*/
+.header-adress {
+    font-style: normal;
+}
 
 /*.header-link {}*/
 
@@ -65,12 +75,9 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
+    letter-spacing: 0.02em;
     color: #434455;
-}
 
-.header-link-soc:hover,
-.header-link-soc:focus {
-    color: #4D5AE5;
 }
 
 /*----------HERO-----------*/
@@ -80,7 +87,7 @@ ul {
     height: 600px;
     left: 0px;
     top: 72px;
-    background: #2E2F42;
+    background: var(--logo-color);
 }
 
 .hero-name {
@@ -116,7 +123,7 @@ ul {
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .scroll-text {
@@ -137,7 +144,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 /*.work-list {}*/
@@ -154,7 +161,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 /*.made-list {}*/
@@ -166,7 +173,7 @@ ul {
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .made-activity {
@@ -184,22 +191,23 @@ ul {
     height: 312px;
     left: 0px;
     top: 2280px;
-    background: #2E2F42;
+    background: var(--logo-color);
 }
 
 .footer-name {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    ;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--button-color);
 }
 
 .footer-name span {
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 
 .footer-text {
@@ -251,7 +259,7 @@ ul {
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .sector-one-text {
@@ -277,7 +285,7 @@ ul {
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .section-two-text {
@@ -303,7 +311,7 @@ ul {
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--logo-color);
 }
 
 .section-three-text {
