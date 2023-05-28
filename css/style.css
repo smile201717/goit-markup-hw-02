@@ -6,6 +6,7 @@ body {
     --text-section-color: #434455;
     --button-color: #4D5AE5;
     --logo-color: #2E2F42;
+    --safari-color: #F4F4FD;
 }
 
 .link {
@@ -120,7 +121,7 @@ ul {
 
 .hero-button:hover,
 .hero-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*----------SECTION1-----------*/
@@ -168,7 +169,7 @@ ul {
 /*----------MADE-----------*/
 
 .made {
-    background: #F4F4FD;
+    background: var(--safari-color);
 }
 
 .made-team {
@@ -226,7 +227,7 @@ ul {
 }
 
 .footer-name span {
-    color: #F4F4FD;
+    color: var(--safari-color);
 }
 
 .footer-text {
@@ -234,7 +235,7 @@ ul {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--safari-color);
 }
 
 /*===============PORTFOLIO===============*/
