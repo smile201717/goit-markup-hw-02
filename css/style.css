@@ -17,7 +17,9 @@ ul {
 
 /*----------HEADER-----------*/
 
-/*.header {}*/
+.header {
+    background: #FFFFFF;
+}
 
 .header-name {
     font-family: 'Raleway';
