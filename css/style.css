@@ -1,0 +1,333 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --text-section-color: #434455;
+    --button-color: #4D5AE5;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*----------HEADER-----------*/
+
+/*.header {}*/
+
+.header-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.header-name span {
+    color: #4D5AE5;
+}
+
+/*.header-page {}*/
+
+.header-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #2E2F42;
+}
+
+.header-menu:hover,
+.header-menu:focus {
+    color: #4D5AE5;
+}
+
+/*.header-adress {}*/
+
+/*.header-link {}*/
+
+.header-link-soc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    color: #434455;
+}
+
+.header-link-soc:hover,
+.header-link-soc:focus {
+    color: #4D5AE5;
+}
+
+/*----------HERO-----------*/
+
+.hero {
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    background: #2E2F42;
+}
+
+.hero-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+/*----------SECTION1-----------*/
+
+/*.scroll {}*/
+
+/*.scroll-list {}*/
+
+/*.scroll-item {}*/
+
+.scroll-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.scroll-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*----------WORK-----------*/
+
+/*.work-are {}*/
+
+.work-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/*.work-list {}*/
+
+/*.work-item {}*/
+
+/*----------MADE-----------*/
+
+/*.made {}*/
+
+.made-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/*.made-list {}*/
+
+/*.made-item {}*/
+
+.made-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.made-activity {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*----------FOOTER-----------*/
+
+.footer {
+    width: 1440px;
+    height: 312px;
+    left: 0px;
+    top: 2280px;
+    background: #2E2F42;
+}
+
+.footer-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-name span {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+/*===============PORTFOLIO===============*/
+/*---------------HEADER---------------*/
+
+/*-----------------MAIN-----------------*/
+
+/*.button {}*/
+
+/*.button-list {}*/
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--button-color);
+}
+
+/*-----------------SECTION-ONE-----------------*/
+
+/*.sector-one {}*/
+
+/*.sector-one-list {}*/
+
+/*.sector-one-item {}*/
+
+/*.sector-one-work {}*/
+
+.sector-one-activity {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.sector-one-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--text-section-color);
+}
+
+/*-----------------SECTION-TWO-----------------*/
+
+/*.section-two {}*/
+
+/*.section-two-list {}*/
+
+/*.section-two-item {}*/
+
+/*.section-two-work {}*/
+
+.section-two-activity {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-two-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--text-section-color);
+}
+
+/*-----------------SECTION-THREE-----------------*/
+
+/*.section-three {}*/
+
+/*.section-three-list {}*/
+
+/*.section-three-item {}*/
+
+/*.section-three-work {}*/
+
+.section-three-activity {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-three-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--text-section-color);
+}
