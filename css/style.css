@@ -80,6 +80,11 @@ ul {
 
 }
 
+.header-link-soc:hover,
+.header-link-soc:focus {
+    color: #404BBF;
+}
+
 /*----------HERO-----------*/
 
 .hero {
@@ -93,6 +98,7 @@ ul {
 .hero-name {
     font-family: 'Roboto';
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -101,13 +107,20 @@ ul {
 }
 
 .hero-button {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    background-color: var(--button-color);
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: #404BBF;
 }
 
 /*----------SECTION1-----------*/
@@ -143,6 +156,7 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--logo-color);
 }
@@ -153,20 +167,25 @@ ul {
 
 /*----------MADE-----------*/
 
-/*.made {}*/
+.made {
+    background: #F4F4FD;
+}
 
 .made-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--logo-color);
 }
 
 /*.made-list {}*/
 
-/*.made-item {}*/
+.made-item {
+    background-color: #FFFFFF
+}
 
 .made-name {
     font-weight: 500;
