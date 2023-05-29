@@ -244,11 +244,7 @@ ul {
 
 /*-----------------MAIN-----------------*/
 
-/*.button {}*/
-
-/*.button-list {}*/
-
-.button {
+.button-soc {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -260,8 +256,8 @@ ul {
     cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button-soc:hover,
+.button-soc:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
