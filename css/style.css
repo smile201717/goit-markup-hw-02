@@ -250,25 +250,28 @@ ul {
 
 
 .button {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: var(--button-color);
+    cursor: pointer;
 }
 
 .button-active:is(:hover, :focus) {
-    background: var(--button-color);
-    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /*-----------------SECTION-ONE-----------------*/
 
 /*.sector-one {}*/
 
-/*.sector-one-list {}*/
+.sector-one-list {
+    list-style: none;
+    text-decoration: none;
+}
 
 /*.sector-one-item {}*/
 
