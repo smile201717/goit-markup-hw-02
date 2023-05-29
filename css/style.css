@@ -245,9 +245,7 @@ ul {
 
 /*.button {}*/
 
-/*.button-list {
-}*/
-
+/*.button-list {}*/
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -264,20 +262,19 @@ ul {
     background-color: #404BBF;
 }
 
-/*-----------------SECTION-ONE-----------------*/
+/*-----------------SECTION-----------------*/
 
-/*.sector-one {}*/
+/*.section {}*/
 
-.sector-one-list {
-    list-style: none;
-    text-decoration: none;
-}
+/*.section-img {}*/
 
-/*.sector-one-item {}*/
+/*.list {}*/
 
-/*.sector-one-work {}*/
+/*.section-work {}*/
 
-.sector-one-activity {
+/*.link {}*/
+
+.section-activity {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -285,59 +282,7 @@ ul {
     color: var(--logo-color);
 }
 
-.sector-one-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    color: var(--text-section-color);
-}
-
-/*-----------------SECTION-TWO-----------------*/
-
-/*.section-two {}*/
-
-/*.section-two-list {}*/
-
-/*.section-two-item {}*/
-
-/*.section-two-work {}*/
-
-.section-two-activity {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.20;
-    letter-spacing: 0.02em;
-    color: var(--logo-color);
-}
-
-.section-two-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    color: var(--text-section-color);
-}
-
-/*-----------------SECTION-THREE-----------------*/
-
-/*.section-three {}*/
-
-/*.section-three-list {}*/
-
-/*.section-three-item {}*/
-
-/*.section-three-work {}*/
-
-.section-three-activity {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.20;
-    letter-spacing: 0.02em;
-    color: var(--logo-color);
-}
-
-.section-three-text {
+.section-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
