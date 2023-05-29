@@ -252,10 +252,10 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--button-color);
-    background-color: #F4F4FD;
+    background-color: var(--safari-color);
     cursor: pointer;
 }
 
