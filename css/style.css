@@ -216,7 +216,6 @@ ul {
 
 .footer-name {
     font-family: 'Raleway', sans-serif;
-    ;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -227,6 +226,7 @@ ul {
 }
 
 .footer-name span {
+    font-family: 'Raleway', sans-serif;
     color: var(--safari-color);
 }
 
