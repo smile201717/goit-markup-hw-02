@@ -47,6 +47,7 @@ ul {
 }
 
 .header-name span {
+    font-family: 'Raleway', sans-serif;
     color: var(--logo-color);
 }
 
