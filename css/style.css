@@ -255,10 +255,13 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: var(--button-color);
+    background-color: #F4F4FD;
     cursor: pointer;
 }
 
-.button-active:is(:hover, :focus) {
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 
