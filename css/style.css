@@ -226,7 +226,7 @@ ul {
     color: var(--button-color);
 }
 
-.footer-name span {
+.name {
     font-family: 'Raleway', sans-serif;
     color: var(--safari-color);
 }
@@ -243,6 +243,10 @@ ul {
 /*---------------HEADER---------------*/
 
 /*-----------------MAIN-----------------*/
+
+.name-logo {
+    color: #2E2F42;
+}
 
 .button-soc {
     font-family: "Roboto", sans-serif;
