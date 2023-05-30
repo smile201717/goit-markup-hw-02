@@ -90,9 +90,6 @@ ul {
 /*----------HERO-----------*/
 
 .hero {
-    width: 1440px;
-    height: 600px;
-    top: 72px;
     background: var(--logo-color);
 }
 
